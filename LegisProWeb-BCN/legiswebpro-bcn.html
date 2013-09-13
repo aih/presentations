@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+        <title>LegisProWeb Editor</title>
+
+		<meta name="description" content="Overview of Features of the LegisProWeb Editor: Chilean National Library of Congress Version">
+		<meta name="author" content="Ari Hershowitz">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+                <section>
+                    <section>
+                        <h2>LegisPro<sup style="font-size:40px"> Web</sup></h2>
+                        <h6>for</h6>
+					<h3>Chilean National Library of Congress (BCN)</h3>
+					<p>
+						<small><a href="http://blog.tabulaw.com">Ari Hershowitz</a> / <a href="http://twitter.com/arihersh">@arihersh</a></small>
+                        <small><a href="http://xcential.com">Xcential, LLC</a></small>
+                        </p>
+                    </section>
+                    <section>
+					<h3>Overview: Import &amp; Explore</h3>
+                    <h6>Sample in Text</h6>
+                    <img alt="Image of Sample Text" width="1200" height="1000" src="./img/ChileLeyText.png"/>
+				</section>
+                    <section>
+					<h3>Overview: Import &amp; Explore</h3>
+                    <h6>Sample in Akoma Ntoso</h6>
+                    <img alt="Image of Sample XML" width="1200" height="1000" src="./img/DebateInAKN.png"/>
+				</section>
+                    <section>
+					<h3>Overview: Import &amp; Explore</h3>
+					<iframe data-autoplay width="1200" height="1000" src="./BCNVideos/BCN-Overview-1.swf"></iframe>
+				</section>
+
+                <section>
+					<h3>Views: Text - HTML - XML </h3>
+					<iframe data-autoplay width="1200" height="1000" src="./BCNVideos/BCN-DifferentViews-2.swf"></iframe>
+				</section>
+
+                <section>
+					<h3>Attributes:</h3>
+                    <h3>View - Create - Edit - Delete</h3>
+					<iframe data-autoplay width="1200" height="1000" src="./BCNVideos/BCN-Attributes-3.swf"></iframe>
+				</section>
+                <section>
+					<h3>Custom Metadata: By Element</h3>
+					<iframe data-autoplay width="1200" height="1000" src="./BCNVideos/BCN-Metadata-4.swf"></iframe>
+				</section>
+                    <section>
+					<h3>Relations:</h3>
+                    <h3>Links for Each Element</h3>
+					<iframe data-autoplay width="1200" height="1000" src="./BCNVideos/BCN-Relations-Links-5.swf"></iframe>
+				</section>
+                <section>
+                    <h3>Tags: Remove, Add,</h3>
+                    <h3>Automatically Recognize &amp; Edit</h3>
+					<iframe data-autoplay width="1200" height="1000" src="./BCNVideos/BCN-Comments-6.swf"></iframe>
+				</section>
+                <section>
+					<h3>Comments: For Quality Control</h3>
+					<iframe data-autoplay width="1200" height="1000" src="./BCNVideos/BCN-ViewFunctions-7.swf"></iframe>
+				</section>
+                <section>
+                    <h3>Viewing Data:</h3>
+                    <h3>Show Comments, Fixed Elements</h3>
+					<iframe data-autoplay width="1200" height="1000" src="./BCNVideos/BCN-RemoveAddTag-8.swf"></iframe>
+                </section>
+				<section>
+					<h2>Xcential LLC</h2>
+					<h3>Software for Law</h3>
+					<p>
+                        <small> <a href="http://legixinfo.wordpress.com/">Grant Vergottini</a> / <a href="http://twitter.com/grantcv1">@grantcv1</a></small><br/>
+                        <small> Bradlee Chang </small>
+                        <br/>
+						<small> Patrick Andries </small>
+                        <br/>
+						<small> François Yergeau </small>
+                        <br/>
+						<small> <a href="http://blog.tabulaw.com/">Ari Hershowitz</a> / <a href="http://twitter.com/grantcv1">@arihersh</a></small>
+                        <br/>
+					</p>
+					<p style="margin-top:220px">
+					<small>Presented with: Reveal.js</small>
+					<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
+					</p>
+                </section>
+            </section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

@@ -793,6 +793,9 @@ $ grunt serve
 
 ## License
 
+Reveal.js and related files are:
+Copyright (C) 2013 Hakim El Hattab, http://hakim.se
 MIT licensed
 
-Copyright (C) 2013 Hakim El Hattab, http://hakim.se
+**Note**: this license does not relate to the presentations included in this repository, which are Copyright (C) Ari Hershowitz and licensed under the Creative License 2.0
+
